@@ -1,0 +1,149 @@
+/*Header*/
+.header-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.justify-content-end{
+    align-items: center;
+}
+
+.nav{
+    font-size: 1.2em;
+}
+
+.nav-link{
+    color: #000000;
+}
+
+.nav-link:hover{
+    color: #5e15eb;
+    transition: all .2s;
+}
+
+.nav-link.active{
+    color: #5e15eb;
+} 
+
+.logo img{
+    max-width: 200px;
+}
+/*Header END*/
+
+/*Typography*/
+h1 {
+    color: #5e15eb;
+    font-size: 2em;
+}
+
+h2{
+    color: #fd8d54;
+    font-size: 1.5em;
+}
+
+h3{
+    font-size: 1.3em;
+}
+
+.text {
+    max-width: 700px;
+    margin: 0px auto;
+}
+
+a{
+    text-decoration: none;
+    color: #5e15eb;
+    cursor: pointer;
+}
+
+a:hover{
+    color: #e7ccf2;
+    transition: all .2s;
+}
+
+/*Typography END*/
+
+/*Game*/
+#game{
+    width: 600px;
+    height: auto;
+    border: 1px solid #5e15eb;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.button{
+    text-align: center;
+}
+
+#startbutton{
+    border: 1px solid #5e15eb;
+    padding: 5px 8px; 
+    background-color: transparent;   
+}
+
+#startbutton:hover{
+    background-color: #5e15eb;
+    color: #ffffff;
+    transition: all .2s;
+}
+
+#gif-success{
+    position: absolute;
+    z-index: 10;
+    width: auto;
+    height: 220px;
+    margin-top: -250px;
+    margin-left: 155px;
+}
+
+#gif-fail{
+    position: absolute;
+    z-index: 10;
+    width: auto;
+    height: 220px;
+    margin-top: -250px;
+    margin-left: 95px;
+}
+
+/*Game END*/
+
+/*Contactform*/
+.cf-button{
+    border: 1px solid #5e15eb;
+    padding: 5px 8px; 
+    background-color: transparent;    
+}
+
+.cf-button:hover{
+    background-color: #5e15eb;
+    color: #ffffff;
+    transition: all .2s;
+}
+
+/*Contactform END*/
+/*Footer*/
+.footer{
+    background-color: #5e15eb;
+    padding-bottom: 5px;
+    width: 100%;
+    position: absolute;
+    bottom: 57px;
+}
+
+.footer a{
+    color: #ffffff;
+}
+
+.footer a:hover{
+    color: #e7ccf2;
+}
+
+.footer2 {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    padding-top: 18px;
+    background-color: #a8a8a8;
+}
+/*Footer END*/
